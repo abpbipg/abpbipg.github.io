@@ -10,7 +10,7 @@ export default defineConfig({
   title: "巨人的世界",
   description: "Just do it.",
   lang: 'zh-CN',
-  base: '/',
+  base: '/blog',
   cleanUrls: true,
 
   themeConfig: {
