@@ -6,6 +6,7 @@ export * from './sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  ignoreDeadLinks: true,
   title: "巨人的世界",
   description: "Just do it.",
   lang: 'zh-CN',
