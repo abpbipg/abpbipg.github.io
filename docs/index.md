@@ -6,7 +6,7 @@ hero:
   text: "Just do it."
   tagline: 只要学不死，就往死里学！
   image:
-    src: /logo.png
+    src: ./logo.png
     alt: Just do it.
   actions:
     - theme: brand
