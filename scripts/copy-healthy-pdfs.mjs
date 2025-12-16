@@ -5,7 +5,14 @@ const repoRoot = process.cwd()
 
 const srcRoot = path.join(repoRoot, 'docs', 'healthy')
 // 临时目录：只用于构建，不提交 git
-const dstRoot = path.join(repoRoot, 'docs', '.vitepress', 'public', 'healthy')
+const publicRoot = path.join(repoRoot, 'docs', '.vitepress', 'public')
+const dstRoot = path.join(publicRoot, 'healthy')
+
+// 递归删除（Node 14+ 可用；GitHub Actions 的 Node 版本一般够）
+async function cleanDir(p) {
+  await fs.rm(p, { recursive: true, force: true })
+  await fs.mkdir(p, { recursive: true })
+}
 
 async function ensureDir(p) {
   await fs.mkdir(p, { recursive: true })
@@ -29,7 +36,12 @@ async function copyPdfTree(srcDir, dstDir) {
 }
 
 try {
+  // 清空临时 public，避免上次构建残留导致重复发布
+  await cleanDir(publicRoot)
+
+  // 只复制到 /healthy/... 这一份路径
   await copyPdfTree(srcRoot, dstRoot)
+
   console.log(`[copy-healthy-pdfs] PDFs -> ${dstRoot}`)
 } catch (err) {
   console.error('[copy-healthy-pdfs] failed:', err)
