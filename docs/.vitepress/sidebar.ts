@@ -5,7 +5,7 @@ export const sidebar: DefaultTheme.Sidebar = {
     {
       text: "起步",
       items: [
-        { text: "起步指南", link: "/start/start" },
+        { text: "起步指南", link: "/start/" },
         { text: "使用 VScode", link: "/start/use_VScode/" },
         { text: "使用 IDEA", link: "/start/use_IDEA/" },
         { text: "Markdown", link: "/start/markdown" },
