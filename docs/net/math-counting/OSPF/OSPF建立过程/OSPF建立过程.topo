@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.200T">
+    <devices>
+        <dev id="55DE4E20-BC7E-4747-9E20-E62F60A7E6C8" name="AR1" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-BB-60-FA" com_port="2000" bootmode="0" cx="198.000000" cy="55.000000" edit_left="225" edit_top="109">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="05FD742E-17B3-485a-B955-932CBFCA46AA" name="AR2" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-83-61-32" com_port="2001" bootmode="0" cx="773.000000" cy="60.000000" edit_left="800" edit_top="114">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="55DE4E20-BC7E-4747-9E20-E62F60A7E6C8" destDeviceID="05FD742E-17B3-485a-B955-932CBFCA46AA">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="1" srcBoundRect_X="268.182129" srcBoundRect_Y="82.375496" srcOffset_X="-16.000000" srcOffset_Y="6.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="756.817871" tarBoundRect_Y="86.624504" tarOffset_X="-25.000000" tarOffset_Y="6.000000" />
+        </line>
+    </lines>
+    <shapes>
+        <shape type="0" filloption="1" color="16744448" upleftcorner="0,0" width="0" height="0" startpt="223,129" endpt="223,533" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="16744448" upleftcorner="0,0" width="0" height="0" startpt="799,131" endpt="795,521" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="65408" upleftcorner="0,0" width="0" height="0" startpt="227,161" endpt="794,217" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="255" upleftcorner="0,0" width="0" height="0" startpt="508,250" endpt="508,250" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="255" upleftcorner="0,0" width="0" height="0" startpt="229,164" endpt="229,164" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="255" upleftcorner="0,0" width="0" height="0" startpt="224,162" endpt="793,218" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="255" upleftcorner="0,0" width="0" height="0" startpt="775,207" endpt="795,217" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="255" upleftcorner="0,0" width="0" height="0" startpt="782,225" endpt="790,218" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="4227327" upleftcorner="0,0" width="0" height="0" startpt="799,226" endpt="224,277" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="4227327" upleftcorner="0,0" width="0" height="0" startpt="223,275" endpt="248,264" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="4227327" upleftcorner="0,0" width="0" height="0" startpt="221,278" endpt="235,282" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="4227327" upleftcorner="0,0" width="0" height="0" startpt="223,283" endpt="796,312" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="4227327" upleftcorner="0,0" width="0" height="0" startpt="788,306" endpt="796,312" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="4227327" upleftcorner="0,0" width="0" height="0" startpt="138,348" endpt="860,350" borderStyle="0" borderWidth="5" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="224,388" endpt="791,427" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="780,419" endpt="793,429" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="793,470" endpt="223,475" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="230,470" endpt="223,472" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16744448" upleftcorner="0,0" width="0" height="0" startpt="794,523" endpt="790,979" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="16744448" upleftcorner="0,0" width="0" height="0" startpt="221,534" endpt="219,974" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="221,563" endpt="790,571" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="785,566" endpt="790,570" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="33023" upleftcorner="0,0" width="0" height="0" startpt="115,613" endpt="867,614" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="792,658" endpt="220,710" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="231,705" endpt="219,708" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="792,784" endpt="219,871" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="229,862" endpt="219,871" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16744448" upleftcorner="0,0" width="0" height="0" startpt="218,974" endpt="218,1572" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="16744448" upleftcorner="0,0" width="0" height="0" startpt="788,980" endpt="791,1579" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="1039,671" endpt="1038,671" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="974,678" endpt="974,678" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="971,679" endpt="971,679" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="402,798" endpt="402,798" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="463,790" endpt="463,790" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="508,856" endpt="507,856" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="501,847" endpt="498,842" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="218,977" endpt="784,1000" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="774,991" endpt="781,1002" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="217,1067" endpt="786,1113" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="779,1104" endpt="788,1113" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="215,1182" endpt="785,1231" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="775,1222" endpt="784,1229" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="218,1334" endpt="788,1320" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16711680" upleftcorner="0,0" width="0" height="0" startpt="229,1326" endpt="216,1332" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="4227327" upleftcorner="0,0" width="0" height="0" startpt="216,1432" endpt="786,1450" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="4227327" upleftcorner="0,0" width="0" height="0" startpt="775,1441" endpt="786,1449" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="4227327" upleftcorner="0,0" width="0" height="0" startpt="789,1540" endpt="217,1559" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="4227327" upleftcorner="0,0" width="0" height="0" startpt="230,1548" endpt="208,1558" borderStyle="0" borderWidth="3" />
+    </shapes>
+    <txttips>
+        <txttip left="190" top="34" right="258" bottom="54" content="1.1.1.1" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="763" top="32" right="831" bottom="52" content="2.2.2.2" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="808" top="135" right="849" bottom="155" content="down" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="164" top="133" right="205" bottom="153" content="down" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="352" top="128" right="447" bottom="186" content="Hello&#x0D;&#x0A;S：1.1.1.1&#x0D;&#x0A;N：null" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="811" top="213" right="852" bottom="233" content="Init" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="350" top="217" right="445" bottom="275" content="Hello&#x0D;&#x0A;S：2.2.2.2&#x0D;&#x0A;N：1.1.1.1" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="160" top="275" right="210" bottom="295" content="2-way" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="807" top="295" right="857" bottom="315" content="2-way" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="524" top="262" right="619" bottom="320" content="Hello&#x0D;&#x0A;S：1.1.1.1&#x0D;&#x0A;N：2.2.2.2" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="864" top="285" right="1014" bottom="343" content="邻居建立&#x0D;&#x0A;通过组播方式发送&#x0D;&#x0A;224.0.0.5" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="876" top="115" right="1243" bottom="248" content="邻居建立好后&#x0D;&#x0A;AR1 和 AR2 会通过收到的Hello报文，选举DR&#x0D;&#x0A;  1. 优先级  （越大越优）&#x0D;&#x0A;  2. RID 大小（越大越优）&#x0D;&#x0A;【优先级为0的不参与选举】&#x0D;&#x0A;&#x0D;&#x0A;等 DR选举出来后，进入 Exstart 状态" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="143" top="367" right="211" bottom="387" content="Exstart" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="801" top="367" right="869" bottom="387" content="Exstart" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="352" top="358" right="692" bottom="397" content="DD &#x0D;&#x0A;RID=1.1.1.1 M/S = 1 I = 1 M=1 Seq = X" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="233" top="419" right="609" bottom="533" content="DD&#x0D;&#x0A; RID = 2.2.2.2 &#x0D;&#x0A; M/S = 1 &#x0D;&#x0A; M = 1 （代表后面还有报文）&#x0D;&#x0A; I = 1 （代表连续发送DD报文的第一个报文）&#x0D;&#x0A; Seq = Y" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="280" top="538" right="548" bottom="614" content="DD&#x0D;&#x0A;RID = 1.1.1.1 M/S = 0 Seq = Y&#x0D;&#x0A;LSA Header：&#x0D;&#x0A; Router-LSA（1.1.1.1）" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="137" top="550" right="214" bottom="570" content="Exchange" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="804" top="557" right="872" bottom="577" content="Echange" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="813" top="400" right="927" bottom="420" content="主从确立阶段" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="811" top="438" right="943" bottom="458" content="数据库同步阶段" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="361" top="793" right="574" bottom="869" content="LSR&#x0D;&#x0A; RID = 2.2.2.2&#x0D;&#x0A; LSA Header：&#x0D;&#x0A;  Router-LSA（1.1.1.1）" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="322" top="624" right="590" bottom="757" content="DD&#x0D;&#x0A; RID = 2.2.2.2&#x0D;&#x0A; M/S = 1&#x0D;&#x0A; M = 0 （代表最后一个DD报文）&#x0D;&#x0A; Seq = Y + 1&#x0D;&#x0A; LSA Header：&#x0D;&#x0A;  Router-LSA（2.2.2.2）" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="802" top="654" right="870" bottom="674" content="Loading" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="233" top="997" right="519" bottom="1148" content="LSU&#x0D;&#x0A; RID = 1.1.1.1&#x0D;&#x0A; LS Type： Router-LSA (1.1.1.1)&#x0D;&#x0A; (包括了拓扑信息)&#x0D;&#x0A;  type： Stub&#x0D;&#x0A;  ID：   1.1.1.1&#x0D;&#x0A;  Data： 255.255.255.255&#x0D;&#x0A;  Metric： 0" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="362" top="932" right="711" bottom="990" content="DD (收到最后一个DD报文后，转为Loading)&#x0D;&#x0A; RID = 1.1.1.1&#x0D;&#x0A; Seq = Y +1" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="136" top="963" right="204" bottom="983" content="Loading" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="362" top="1154" right="575" bottom="1230" content="LSR&#x0D;&#x0A; RID = 1.1.1.1&#x0D;&#x0A; LSA Header：&#x0D;&#x0A;  Router-LSA（2.2.2.2）" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="366" top="1289" right="643" bottom="1365" content="LSU&#x0D;&#x0A; RID = 2.2.2.2&#x0D;&#x0A; LS Type: Router-LSA (2.2.2.2)&#x0D;&#x0A;  略" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="352" top="1384" right="683" bottom="1460" content="LSAck&#x0D;&#x0A; RID = 1.1.1.1&#x0D;&#x0A; LSA Header:&#x0D;&#x0A;  Router-LSA(1.1.1.1)  Adv： 1.1.1.1" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="530" top="1048" right="734" bottom="1143" content="(包括了拓扑信息)&#x0D;&#x0A;  type： Transit&#x0D;&#x0A;  ID：   10.1.12.1&#x0D;&#x0A;  Data： 255.255.255.0&#x0D;&#x0A;  Metric： 1" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="348" top="1492" right="706" bottom="1587" content="LSAck&#x0D;&#x0A; RID = 2.2.2.2&#x0D;&#x0A; LSA Header:&#x0D;&#x0A;  Router-LSA(2.2.2.2) Adv：2.2.2.2&#x0D;&#x0A;  Network-LSA（10.1.12.2）Adv： 2.2.2.2" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="799" top="1437" right="840" bottom="1457" content="Full" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="169" top="1548" right="210" bottom="1568" content="Full" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="802" top="1535" right="1133" bottom="1593" content="后面如果哪边路由有更新&#x0D;&#x0A; 更新方路由器发送 LSU&#x0D;&#x0A; 收到的路由器更新数据库，并回复LSAck" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="871" top="9" right="1121" bottom="85" content="初始：&#x0D;&#x0A;Hello Interval = 10s&#x0D;&#x0A;Dead Interval = 4 倍 Hello&#x0D;&#x0A;Pri = 1" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-32704" charset="1" />
+    </txttips>
+</topo>

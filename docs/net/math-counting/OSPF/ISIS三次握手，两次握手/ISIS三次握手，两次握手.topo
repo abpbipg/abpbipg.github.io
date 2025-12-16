@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.200T">
+    <devices>
+        <dev id="4D5B56AB-1819-4c86-A6E7-57C5AB6DB2A9" name="AR2" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-8D-25-44" com_port="2001" bootmode="0" cx="593.000000" cy="22.000000" edit_left="620" edit_top="76">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="7F5F1406-1E12-4180-8B23-D257226DB70B" name="AR1" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-F8-44-8E" com_port="2000" bootmode="0" cx="166.000000" cy="23.000000" edit_left="193" edit_top="77">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="A4AAAADA-F40C-464f-8CDC-3D21559C3B8C" name="AR3" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-DE-26-3C" com_port="2002" bootmode="0" cx="881.000000" cy="29.000000" edit_left="908" edit_top="83">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Serial" interfacename="POS" count="1" />
+            </slot>
+            <slot isMainBoard="0" id="3" type="533" />
+        </dev>
+        <dev id="4811492C-8749-4a8a-B1E2-30FC7A2FCEFD" name="AR4" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-A5-71-71" com_port="2003" bootmode="0" cx="1185.000000" cy="30.000000" edit_left="1212" edit_top="84">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Serial" interfacename="POS" count="1" />
+            </slot>
+            <slot isMainBoard="0" id="3" type="533" />
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="7F5F1406-1E12-4180-8B23-D257226DB70B" destDeviceID="4D5B56AB-1819-4c86-A6E7-57C5AB6DB2A9">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="1" srcBoundRect_X="236.183655" srcBoundRect_Y="49.898869" srcOffset_X="-3.000000" srcOffset_Y="3.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="576.816345" tarBoundRect_Y="49.101131" tarOffset_X="-34.000000" tarOffset_Y="5.000000" />
+        </line>
+        <line srcDeviceID="A4AAAADA-F40C-464f-8CDC-3D21559C3B8C" destDeviceID="4811492C-8749-4a8a-B1E2-30FC7A2FCEFD">
+            <interfacePair lineName="Serial" srcIndex="3" srcBoundRectIsMoved="1" srcBoundRect_X="951.183533" srcBoundRect_Y="56.142052" srcOffset_X="-9.000000" srcOffset_Y="4.000000" tarIndex="3" tarBoundRectIsMoved="1" tarBoundRect_X="1168.816528" tarBoundRect_Y="56.857948" tarOffset_X="-31.000000" tarOffset_Y="7.000000" />
+        </line>
+    </lines>
+    <shapes>
+        <shape type="0" filloption="1" color="16744448" upleftcorner="0,0" width="0" height="0" startpt="192,95" endpt="186,671" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="16744448" upleftcorner="0,0" width="0" height="0" startpt="618,93" endpt="620,678" borderStyle="0" borderWidth="3" />
+        <shape type="0" filloption="1" color="255" upleftcorner="0,0" width="0" height="0" startpt="616,156" endpt="189,184" borderStyle="0" borderWidth="2" />
+        <shape type="0" filloption="1" color="255" upleftcorner="0,0" width="0" height="0" startpt="198,173" endpt="189,181" borderStyle="0" borderWidth="2" />
+        <shape type="0" filloption="1" color="255" upleftcorner="0,0" width="0" height="0" startpt="190,282" endpt="616,318" borderStyle="0" borderWidth="2" />
+        <shape type="0" filloption="1" color="255" upleftcorner="0,0" width="0" height="0" startpt="608,308" endpt="616,318" borderStyle="0" borderWidth="2" />
+        <shape type="0" filloption="1" color="255" upleftcorner="0,0" width="0" height="0" startpt="618,407" endpt="189,421" borderStyle="0" borderWidth="2" />
+        <shape type="0" filloption="1" color="255" upleftcorner="0,0" width="0" height="0" startpt="206,408" endpt="190,421" borderStyle="0" borderWidth="2" />
+        <shape type="0" filloption="1" color="255" upleftcorner="0,0" width="0" height="0" startpt="762,411" endpt="762,411" borderStyle="0" borderWidth="2" />
+        <shape type="0" filloption="1" color="16744448" upleftcorner="0,0" width="0" height="0" startpt="904,99" endpt="898,449" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="16744448" upleftcorner="0,0" width="0" height="0" startpt="1211,100" endpt="1209,450" borderStyle="0" borderWidth="1" />
+    </shapes>
+    <txttips>
+        <txttip left="125" top="7" right="302" bottom="27" content="Sid：1111.1111.1111" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="552" top="7" right="720" bottom="27" content="Sid:2222.2222.2222" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="367" top="19" right="399" bottom="39" content="BMA" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="266" top="104" right="479" bottom="162" content="L2 LAN IIH&#x0D;&#x0A;sys id: 1111.1111.1111&#x0D;&#x0A;nei: null" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="144" top="171" right="185" bottom="191" content="init" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="265" top="224" right="478" bottom="282" content="L2 LAN IIH&#x0D;&#x0A;sys id: 2222.2222.2222&#x0D;&#x0A;nei: Router A" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="629" top="303" right="734" bottom="323" content="Established" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="265" top="350" right="478" bottom="408" content="L2 LAN IIH&#x0D;&#x0A;sys id: 1111.1111.1111&#x0D;&#x0A;nei: Router B" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="79" top="417" right="184" bottom="437" content="Established" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="36" top="91" right="113" bottom="111" content="三次握手" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1035" top="33" right="1067" bottom="53" content="PTP" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="222" top="465" right="571" bottom="560" content="ISIS是链路层协议&#x0D;&#x0A;&#x0D;&#x0A;直接以帧发送，通过组播MAC地址发送的，&#x0D;&#x0A;&#x0D;&#x0A;里面封装的是SNPA（子网连接点）地址" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>
