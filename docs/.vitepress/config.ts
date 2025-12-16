@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { nav } from './navbar'
 import { sidebar } from './sidebar'
+import { healthyLinkPrefixPlugin } from './linkPrefixPlugin'
 export * from './navbar'
 export * from './sidebar'
 
@@ -12,6 +13,14 @@ export default defineConfig({
   lang: 'zh-CN',
   base: '/',
   cleanUrls: true,
+  markdown: {
+    config: (md) => {
+      md.use(healthyLinkPrefixPlugin, {
+        prefix: '/healthy',
+        exclude: ['/healthy/', '/img/', '/pdf/', '/etc/', '/pics/'],
+      })
+    },
+  },
 
   themeConfig: {
     nav: nav,

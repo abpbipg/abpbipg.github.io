@@ -6,7 +6,11 @@ hero:
   text: "Just do it."
   tagline: 只要学不死，就往死里学！
   image:
+<<<<<<< HEAD
     src: /logo.png
+=======
+    src: /img/logo.png
+>>>>>>> 310192b (docs(healthy): update public assets and sidebar config)
     alt: Just do it.
   actions:
     - theme: brand
