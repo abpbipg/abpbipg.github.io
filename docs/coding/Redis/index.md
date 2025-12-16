@@ -48,7 +48,7 @@ sudo apt install redis-server
 参考修改 redis.conf
 
 ::: details `redis.conf`
-```conf
+```
 # Redis configuration file example.
 #
 # Note that in order to read the configuration file, Redis must be

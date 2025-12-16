@@ -20,7 +20,7 @@ sudo yum install chrony
 
 在 CentOS 中配置文件在 `/etc/chrony.conf`：
 
-``` conf
+```
 # Use public servers from the pool.ntp.org project.
 # Please consider joining the pool (http://www.pool.ntp.org/join.html).
 server 0.centos.pool.ntp.org iburst

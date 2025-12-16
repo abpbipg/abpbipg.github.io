@@ -97,7 +97,7 @@ sudo systemctl restart rabbitmq-server.service
 
 查询当前 RabbitMQ 状态
 
-```textStatus of node rabbit@VM-0-5-debian ...
+```text Status of node rabbit@VM-0-5-debian ...
 Runtime
 
 OS PID: 457

@@ -126,7 +126,7 @@ Unbound 的配置文件为：[`/etc/unbound/unbound.conf`](/etc/unbound/unbound.
 
 1. 修改 `unbound.conf` 文件，删除第 38、39 行开头的 `# `（取消注释）。
 2. 在第 183 行下加一行：
-   ```conf
+   ```
    access-control: 0.0.0.0/0 allow
    ```
 3. 将第 215 行，改为 `username: ""`，让所有用户都可访问。
@@ -138,7 +138,7 @@ Unbound 的配置文件为：[`/etc/unbound/unbound.conf`](/etc/unbound/unbound.
 ### 配置为存缓存 DNS 服务器
 
 1. 在 `unbound.conf` 文件，第 558 行下添加：
-   ```conf
+   ```
    forward-zone:
          name: "."
          forward-addr: 192.168.30.100
@@ -149,7 +149,7 @@ Unbound 的配置文件为：[`/etc/unbound/unbound.conf`](/etc/unbound/unbound.
 
 1. 切换工作区: `cd /etc/unbound/local.d/`
 2. 创建一个区域配置文件：`sudo vim skillschina.com.conf`
-   ```conf
+   ```
    # 正向解析
    local-data: "dns1.skillschina.com   3600 IN A 192.168.30.100"
    local-data: "dns2.skillschina.com   3600 IN A 192.168.30.101"

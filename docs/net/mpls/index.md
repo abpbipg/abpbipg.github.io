@@ -331,7 +331,7 @@ entropy-label ttl-mode {uniform | pipe}		##修改模式为 统一/管道
 
 ![静态LSP建立](img/静态LSP建立.png)
 
-```delphi
+```
 ##配置底层路由协议
 ##全局视图下配置
 mpls lsr-id 2.2.2.2		//配置该设备的LSR-ID(该地址需要路由可达)
@@ -375,7 +375,7 @@ display mpls static-lsp
 
 ##### LDP协议的配置
 
-```delphi
+```
 ##1.底层IGP配置(ospf,static等)
 
 ##2.全局视图下配置

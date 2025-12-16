@@ -234,7 +234,8 @@ yarn docs:dev
 每个文档都可以放在独立的文件夹下，维护自己的 `img` 文件夹。
 
 ::: details 目录结构
-```text文件夹 PATH 列表
+```text
+PATH 列表
 卷序列号为 6010-F505
 D:.
 ├─.vuepress/

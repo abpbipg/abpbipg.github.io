@@ -1,4 +1,5 @@
 import type { DefaultTheme } from 'vitepress'
+import { sidebarMathCounting } from './sidebar-math-counting'
 
 export const sidebar: DefaultTheme.Sidebar = {
   "/start/": [
@@ -58,14 +59,13 @@ export const sidebar: DefaultTheme.Sidebar = {
       text: "网络",
       items: [
         { text: "缩写表", link: "/net/00-Abbreviation/" },
-        { text: "ENSP实验", link: "/net/ensp/" },
-        { text: "思维导图", link: "/net/map/"},
+        { text: "HCIP思维导图", link: "/net/map/"},
         { text: "丢分题", link:"/net/lost/"},
         { text: "MPLS", link:"/net/mpls/"},
       ],
     },
   ],
-  
+
   "/serve/base/": [
     {
       text: "基本操作",
@@ -272,4 +272,5 @@ export const sidebar: DefaultTheme.Sidebar = {
       items: [{ text: '门诊慢性病种类', link: '/healthy/医保-门诊慢性病种类' }],
     },
   ],
+  ...sidebarMathCounting,
 }

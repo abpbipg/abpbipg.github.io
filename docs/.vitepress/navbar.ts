@@ -31,14 +31,15 @@ export const nav: DefaultTheme.Config['nav'] = [
     text: "网络",
     items: [  
       { text: "缩写表", link: "/net/00-Abbreviation/" },
-      { text: "ENSP实验", link: "/net/ensp/"},
-      { text: "思维导图", link: "/net/map/"},
+      { text: "HCIP思维导图", link: "/net/map/"},
       { text: "丢分题", link:"/net/lost/"},
       { text: "MPLS", link:"/net/mpls/"},
-
+      { text: "数通复习", link: "/net/math-counting/" },
 
     ],
   },	
+  
+
   {
     text: "系统服务",
     items: [  

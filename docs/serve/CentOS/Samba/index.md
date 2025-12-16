@@ -82,7 +82,7 @@ sudo systemctl enable smb.service # 开机启动
 
    - 在 `/etc/samba/` 目录下新建 `smb.conf` 文件内容如下：
    
-     ```conf
+     ```
      [global]
              workgroup = WORKGROUP
              security = user
@@ -99,7 +99,7 @@ sudo systemctl enable smb.service # 开机启动
    
    - 在 `/etc/samba/` 目录下新建 `jwc.smb.conf` 文件内容如下：
    
-     ```conf
+     ```
      [jwc]
            comment = 教务处
            path = /share/jwc
@@ -110,7 +110,7 @@ sudo systemctl enable smb.service # 开机启动
    
    - 在 `/etc/samba/` 目录下新建 `zsb.smb.conf` 文件内容如下：
    
-     ```conf
+     ```
      [zsb]
              comment = 招生办
              path = /share/zsb

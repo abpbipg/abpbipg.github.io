@@ -104,7 +104,7 @@ apt install mariadb-server
 
 ### 创建数据表须知：创建MySQL数据表需要 "表名" "表明字段" "定义每个表字段"
 
-```puml
+```
 #语法：MySQL> CREATE TABLE table_name (column_name column_type);
 #注释：MySQL> CREATE（创建） TABLE(表) table_name(表名) (column_name column_type)：列名和类型；
 ``` 
@@ -113,7 +113,7 @@ apt install mariadb-server
 
 ### 在mysql>命令提示窗口中删除数据表SQL语句为  "DROP TABLE"
 
-```puml
+```
 #MySQL> DROP TABLE table_name ;
 ```
 
@@ -121,7 +121,7 @@ apt install mariadb-server
 
 ###  表中使用 INSERT INTO SQL语句来插入数据
 
-```puml
+```
 #MySQL> INSERT INTO table_name ( field1, field2,...fieldN )
                        VALUES
                        ( value1, value2,...valueN );
@@ -131,7 +131,7 @@ apt install mariadb-server
 
 ### 以下为在MySQL数据库中查询数据通用的 SELECT 语法
 
-```puml
+```
 #查找单列：SELECT [列名] FROM [表名]
 #查找多列：SELECT [列名]，[列名]，[列名] FROM [表名]
 #查找所有：SELECT * FROM [列名]
@@ -149,7 +149,7 @@ apt install mariadb-server
 
 ### 在 SELECT 语法基础下使用 WHERE 创造搜索条件(具体看" WHERE 操作符说明")
 
-```puml
+```
  #SELECT [列名] FROM [表名] WHERE [列名] = [赋值];
  #上面的语法表示一个简单的过滤，拥有 [赋值]数的才会显示
  -[赋值]可以是"数""，也可以是 "行"
