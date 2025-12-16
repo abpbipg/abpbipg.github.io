@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.2.00.510">
+    <devices>
+        <dev id="AABAA543-50E0-46aa-B04B-D7A44B7610A6" name="AR1" poe="0" model="AR1220" settings="" system_mac="00-E0-FC-5A-1C-6F" com_port="2000" bootmode="0" cx="265.000000" cy="238.000000" edit_left="292" edit_top="292">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Ethernet" interfacename="Ethernet" count="8" />
+            </slot>
+        </dev>
+        <dev id="4160FF4A-CA60-472e-BC03-A38412306A8E" name="AR2" poe="0" model="AR1220" settings="" system_mac="00-E0-FC-B0-7E-10" com_port="2001" bootmode="0" cx="416.000000" cy="240.000000" edit_left="443" edit_top="294">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Ethernet" interfacename="Ethernet" count="8" />
+            </slot>
+        </dev>
+        <dev id="62FFC443-6798-445a-9E08-2F6D4D5BC898" name="AR3" poe="0" model="AR1220" settings="" system_mac="00-E0-FC-D1-4C-EE" com_port="2002" bootmode="0" cx="554.000000" cy="237.000000" edit_left="581" edit_top="291">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Ethernet" interfacename="Ethernet" count="8" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="AABAA543-50E0-46aa-B04B-D7A44B7610A6" destDeviceID="4160FF4A-CA60-472e-BC03-A38412306A8E">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="1" srcBoundRect_X="335.179993" srcBoundRect_Y="265.571930" srcOffset_X="-19.000000" srcOffset_Y="5.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="399.820007" tarBoundRect_Y="266.428070" tarOffset_X="-20.000000" tarOffset_Y="6.000000" />
+        </line>
+        <line srcDeviceID="4160FF4A-CA60-472e-BC03-A38412306A8E" destDeviceID="62FFC443-6798-445a-9E08-2F6D4D5BC898">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="486.173553" srcBoundRect_Y="266.061432" srcOffset_X="-18.000000" srcOffset_Y="6.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="537.826416" tarBoundRect_Y="264.938568" tarOffset_X="-23.000000" tarOffset_Y="8.000000" />
+        </line>
+    </lines>
+    <shapes>
+        <shape type="1" filloption="1" color="16744448" upleftcorner="180,288" width="0" height="0" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+        <shape type="1" filloption="1" color="16744448" upleftcorner="148,194" width="214" height="153" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+        <shape type="1" filloption="1" color="16776960" upleftcorner="368,186" width="146" height="178" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+        <shape type="1" filloption="1" color="12615935" upleftcorner="515,190" width="167" height="148" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+    </shapes>
+    <txttips>
+        <txttip left="183" top="205" right="247" bottom="222" content="AS 64511" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="142" top="247" right="252" bottom="279" content="172.16.1.0/24&#x0D;&#x0A;172.16.2.0/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="283" top="223" right="378" bottom="240" content="10.0.12.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="351" top="301" right="446" bottom="318" content="10.0.12.2/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="409" top="200" right="473" bottom="217" content="AS 64512" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="447" top="300" right="542" bottom="317" content="10.0.23.2/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="561" top="204" right="625" bottom="221" content="AS 64513" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="501" top="225" right="596" bottom="242" content="10.0.23.3/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="617" top="266" right="727" bottom="298" content="172.17.1.0/24&#x0D;&#x0A;172.17.2.0/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="143" top="389" right="796" bottom="546" content="1. 设备 IP 地址配置。&#x0D;&#x0A;&#x0D;&#x0A;2. 按照规划配置 R1、R2、R3 之间的 EBGP 对等体关系。&#x0D;&#x0A;&#x0D;&#x0A;3. 在 R1 上将 Loopback1、Loopback2 接口路由发布到 BGP 中并进行自动汇总，&#x0D;&#x0A;在 R2 上观察 BGP 汇总路由的明细信息。&#x0D;&#x0A;&#x0D;&#x0A;4. 在 R3 上将 Loopback1、Loopback2 接口路由发布到 BGP 中，&#x0D;&#x0A;在 R2 上执行手动汇总，观察 R2、R3 上的 BGP 汇总路由的明细信息。&#x0D;&#x0A;之后在 R2 上执行手动汇总并增加关键字 as-set，再次观察 R2 上的 BGP 汇总路由的明细信息。" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>

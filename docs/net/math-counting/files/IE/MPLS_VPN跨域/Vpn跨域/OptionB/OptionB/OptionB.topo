@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.200T">
+    <devices>
+        <dev id="FF7A3037-CC1B-431e-99CA-183BBA9C5E8C" name="ASBR-PE3" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-DD-15-67" com_port="2003" bootmode="0" cx="435.000000" cy="88.000000" edit_left="462" edit_top="142">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="8185B648-E75F-437b-AAD9-E541685A91F2" name="PE4" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-2A-4F-79" com_port="2004" bootmode="0" cx="598.000000" cy="88.000000" edit_left="625" edit_top="142">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="AD81F0F7-3B17-413f-AF02-B21D05C19F84" name="CE2" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-F1-1A-AF" com_port="2005" bootmode="0" cx="674.000000" cy="238.000000" edit_left="701" edit_top="292">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="7E0E12C5-CB27-418a-A196-64057A9EA1D0" name="CE1" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-BD-7C-8B" com_port="2000" bootmode="0" cx="33.000000" cy="244.000000" edit_left="60" edit_top="298">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="54D7FB7A-36B9-496b-90C2-D53F3DF49D05" name="PE1" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-81-29-B9" com_port="2001" bootmode="0" cx="127.000000" cy="89.000000" edit_left="154" edit_top="143">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="6C9EB957-DE41-4951-A4E0-173EE39B1DDB" name="ASBR-PE2" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-17-7F-34" com_port="2002" bootmode="0" cx="275.000000" cy="89.000000" edit_left="302" edit_top="143">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="7E0E12C5-CB27-418a-A196-64057A9EA1D0" destDeviceID="54D7FB7A-36B9-496b-90C2-D53F3DF49D05">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="82.392776" srcBoundRect_Y="234.075745" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="131.607224" tarBoundRect_Y="152.924255" tarOffset_X="-54.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="54D7FB7A-36B9-496b-90C2-D53F3DF49D05" destDeviceID="6C9EB957-DE41-4951-A4E0-173EE39B1DDB">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="197.183762" srcBoundRect_Y="116.000000" srcOffset_X="-16.000000" srcOffset_Y="8.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="258.816223" tarBoundRect_Y="116.000000" tarOffset_X="-25.000000" tarOffset_Y="4.000000" />
+        </line>
+        <line srcDeviceID="6C9EB957-DE41-4951-A4E0-173EE39B1DDB" destDeviceID="FF7A3037-CC1B-431e-99CA-183BBA9C5E8C">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="345.182922" srcBoundRect_Y="115.730110" srcOffset_X="-19.000000" srcOffset_Y="6.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="418.817078" tarBoundRect_Y="115.269890" tarOffset_X="-32.000000" tarOffset_Y="6.000000" />
+        </line>
+        <line srcDeviceID="FF7A3037-CC1B-431e-99CA-183BBA9C5E8C" destDeviceID="8185B648-E75F-437b-AAD9-E541685A91F2">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="505.183777" srcBoundRect_Y="115.000000" srcOffset_X="-15.000000" srcOffset_Y="5.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="581.816223" tarBoundRect_Y="115.000000" tarOffset_X="-26.000000" tarOffset_Y="4.000000" />
+        </line>
+        <line srcDeviceID="8185B648-E75F-437b-AAD9-E541685A91F2" destDeviceID="AD81F0F7-3B17-413f-AF02-B21D05C19F84">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="644.517517" srcBoundRect_Y="153.521469" srcOffset_X="8.000000" srcOffset_Y="-6.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="681.482483" tarBoundRect_Y="226.478531" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips>
+        <txttip left="18" top="326" right="132" bottom="384" content="65001&#x0D;&#x0A;&#x0D;&#x0A;10.1.1.1/ 24" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="67" top="183" right="172" bottom="203" content="10.1.1.2/24" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="177" top="65" right="291" bottom="85" content="172.1.1.X/24" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="325" top="66" right="439" bottom="86" content="192.1.1.X/24" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="490" top="68" right="604" bottom="88" content="162.1.1.X/24" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="560" top="193" right="665" bottom="213" content="10.2.1.X/24" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="645" top="334" right="750" bottom="392" content="65002&#x0D;&#x0A;&#x0D;&#x0A;10.2.1.1/24" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="176" top="273" right="607" bottom="499" content="1. ASBR 与 PE 之间实现互通&#x0D;&#x0A;&#x0D;&#x0A;2. ASBR 与 PE 之间配置MPLS 和 MPLS LDP&#x0D;&#x0A;建立 LDP LSP&#x0D;&#x0A;&#x0D;&#x0A;3. PE 与 ASBR-PE 建立MP-IBGP 对等体&#x0D;&#x0A;&#x0D;&#x0A;4. CE 与 PE vpn 实例绑定，VPN vpn-target 要放行&#x0D;&#x0A;   PE 与 CE 之间建立EBGP 关系&#x0D;&#x0A;&#x0D;&#x0A;5. ASBR 之间使能 MPLS 建立 MP-EBGP 对等体关系，&#x0D;&#x0A;   并不对VPNv4 路由进行VPN-target 过滤" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="219" top="36" right="251" bottom="56" content="100" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="524" top="37" right="556" bottom="57" content="200" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="72" top="38" right="140" bottom="58" content="OptionB" fontname="Consolas" fontstyle="0" editsize="120" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>

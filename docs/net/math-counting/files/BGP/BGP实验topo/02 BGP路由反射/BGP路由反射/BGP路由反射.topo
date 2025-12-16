@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.2.00.510">
+    <devices>
+        <dev id="881CEF8A-E000-40d3-89C0-5C5886528883" name="S5" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-BE-33-91" com_port="2004" bootmode="0" cx="920.000000" cy="179.000000" edit_left="947" edit_top="233">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="23D3E74D-C0FE-47cf-9C7C-FD6582F72FF1" name="R3" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-D3-26-16" com_port="2002" bootmode="0" cx="931.000000" cy="380.000000" edit_left="958" edit_top="434">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="3D008DE9-6CAB-4232-89A5-2512AAFEBFD4" name="R4" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-FC-73-42" com_port="2003" bootmode="0" cx="1131.000000" cy="387.000000" edit_left="1158" edit_top="441">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="357F46B9-AED0-436b-98A3-CA4C67F35CEC" name="R1" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-C0-56-D1" com_port="2000" bootmode="0" cx="533.000000" cy="367.000000" edit_left="560" edit_top="421">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="5BD792CC-EA4B-41ba-A413-344EF5375FA0" name="R2" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-1B-4E-BA" com_port="2001" bootmode="0" cx="719.000000" cy="374.000000" edit_left="746" edit_top="428">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+            </slot>
+            <slot isMainBoard="0" id="3" type="6" />
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="357F46B9-AED0-436b-98A3-CA4C67F35CEC" destDeviceID="5BD792CC-EA4B-41ba-A413-344EF5375FA0">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="1" srcBoundRect_X="603.153198" srcBoundRect_Y="395.624054" srcOffset_X="-3.000000" srcOffset_Y="-13.000000" tarIndex="2" tarBoundRectIsMoved="1" tarBoundRect_X="702.846802" tarBoundRect_Y="399.375946" tarOffset_X="-24.000000" tarOffset_Y="-15.000000" />
+        </line>
+        <line srcDeviceID="5BD792CC-EA4B-41ba-A413-344EF5375FA0" destDeviceID="23D3E74D-C0FE-47cf-9C7C-FD6582F72FF1">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="789.166504" srcBoundRect_Y="402.221680" srcOffset_X="11.000000" srcOffset_Y="-13.000000" tarIndex="2" tarBoundRectIsMoved="1" tarBoundRect_X="914.833496" tarBoundRect_Y="405.778320" tarOffset_X="-29.000000" tarOffset_Y="-16.000000" />
+        </line>
+        <line srcDeviceID="23D3E74D-C0FE-47cf-9C7C-FD6582F72FF1" destDeviceID="3D008DE9-6CAB-4232-89A5-2512AAFEBFD4">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="1001.157349" srcBoundRect_Y="408.510498" srcOffset_X="-7.000000" srcOffset_Y="-17.000000" tarIndex="2" tarBoundRectIsMoved="1" tarBoundRect_X="1114.842651" tarBoundRect_Y="412.489502" tarOffset_X="-33.000000" tarOffset_Y="-14.000000" />
+        </line>
+        <line srcDeviceID="3D008DE9-6CAB-4232-89A5-2512AAFEBFD4" destDeviceID="881CEF8A-E000-40d3-89C0-5C5886528883">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="1127.246582" srcBoundRect_Y="383.683868" srcOffset_X="-5.000000" srcOffset_Y="-18.000000" tarIndex="3" tarBoundRectIsMoved="1" tarBoundRect_X="977.753357" tarBoundRect_Y="236.316132" tarOffset_X="9.000000" tarOffset_Y="-5.000000" />
+        </line>
+        <line srcDeviceID="881CEF8A-E000-40d3-89C0-5C5886528883" destDeviceID="5BD792CC-EA4B-41ba-A413-344EF5375FA0">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="916.005371" srcBoundRect_Y="236.069427" srcOffset_X="-52.000000" srcOffset_Y="-6.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="776.994629" tarBoundRect_Y="370.930573" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes>
+        <shape type="1" filloption="1" color="16744448" upleftcorner="500,141" width="767" height="542" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+    </shapes>
+    <txttips>
+        <txttip left="521" top="435" right="616" bottom="452" content="10.0.12.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="635" top="424" right="730" bottom="441" content="10.0.12.2/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="787" top="343" right="882" bottom="360" content="10.0.24.2/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="754" top="420" right="849" bottom="437" content="10.0.23.2/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="857" top="421" right="952" bottom="438" content="10.0.23.3/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="968" top="423" right="1063" bottom="440" content="10.0.34.3/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1068" top="425" right="1163" bottom="442" content="10.0.34.4/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="518" top="184" right="582" bottom="201" content="AS 64511" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="562" top="510" right="1200" bottom="636" content="1. 设备基础 IP 地址配置。&#x0D;&#x0A;2. 配置 AS 内的 OSPF，在互联接口、Loopback0 接口上激活 OSPF。&#x0D;&#x0A;3. 配置 AS 内基于直连接口建立 IBGP 对等体关系。&#x0D;&#x0A;4. 配置路由反射器，将 R1 配置为 R2 的客户端、R2 配置为 R3 的客户端、R3 配置为 R4 的&#x0D;&#x0A;客户端。&#x0D;&#x0A;5. 在 R2 上将 Loopback1 接口路由发布进 BGP，观察 Originator_ID 属性如何实现路由防&#x0D;&#x0A;环。&#x0D;&#x0A;6. 在 R1 上将 Loopback1 接口路由发布进 BGP，观察 Cluster_List 属性如何实现路由防环。" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1099" top="344" right="1194" bottom="361" content="10.0.24.4/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>
