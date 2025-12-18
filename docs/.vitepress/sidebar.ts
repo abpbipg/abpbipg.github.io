@@ -150,6 +150,15 @@ export const sidebar: DefaultTheme.Sidebar = {
     },
   ],
 
+    "/serve/MYSQL/": [
+    {
+      text: "MYSQL",
+      items: [
+        { text: "SQL学习笔记", link: "/serve/MYSQL/SQL学习笔记" },
+      ],
+    },
+  ],
+
   '/healthy/': [
     {
       text: '健康',

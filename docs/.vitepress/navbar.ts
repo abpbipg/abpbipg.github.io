@@ -48,6 +48,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: "WS", link: "/serve/WS/" },
       { text: "CentOS", link: "/serve/CentOS/" },
       { text: "Ubuntu", link: "/serve/Ubuntu/" },
+      { text: "SQL学习笔记", link: "/serve/MYSQL/SQL学习笔记" },
     ],
   }, 
   
