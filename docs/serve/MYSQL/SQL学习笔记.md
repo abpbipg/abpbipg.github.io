@@ -287,7 +287,7 @@ select 籍贯 from 职工 group by 籍贯 having avg(年龄) > 40;
 select e.姓名 from 职工 e
 join 社会团体 s on e.职工号 = s.负责人 
 group by e.职工号, e.姓名 
-having count(s.编号) &gt; 2;
+having count(s.编号);
 ```
 
 ## 2. 带HAVING子句的分组查询
@@ -340,8 +340,8 @@ values ('g10', '美术社', '3楼305');
 -- 6. 往“参加”表中批量添加个人参加社团记录
 insert into 参加 (职工号, 编号, 参团日期) 
 values 
-('whl', 'g01', '2025/1/1'),
-('whl', 'g07', '2025/1/2');
+('w10', 'g01', '2025/1/1'),
+('w10', 'g07', '2025/1/2');
 ```
 
 ## 3. 删除表中数据
