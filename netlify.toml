@@ -1,0 +1,15 @@
+[build]
+  # 你的构建命令包含预处理脚本
+  command = "npm run docs:build"
+  # 输出目录：VitePress 在 docs 文件夹
+  publish = "docs/. vitepress/dist"
+
+[build.environment]
+  # 设置 Node 版本
+  NODE_VERSION = "18"
+
+# 处理 SPA 路由（单页应用必备）
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
