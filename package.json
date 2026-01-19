@@ -4,10 +4,10 @@
     "less": "^4.4.1",
     "sass": "^1.93.2",
     "stylus": "^0.64.0",
-    "vitepress": "^2.0.0-alpha.12"
+    "vitepress": "^1.5.0"
   },
   "scripts": {
-    "predocs:build": "node scripts/copy-healthy-pdfs.mjs && node scripts/copy-pdf-assets.mjs",
+    "predocs: build": "node scripts/copy-healthy-pdfs.mjs && node scripts/copy-pdf-assets.mjs",
     "docs:dev": "vitepress dev docs --host 0.0.0.0",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
